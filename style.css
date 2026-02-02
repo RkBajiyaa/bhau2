@@ -114,26 +114,28 @@ body {
 }
 
 /* =========================================================
-   Hero Section (With Background Image)
+   Hero Section – Premium Visibility Upgrade
 ========================================================= */
 .hero {
   min-height: 90vh;
-  padding-top: 70px;
+  padding-top: 80px;
 
   background-image:
     linear-gradient(
-      rgba(255, 255, 255, 0.85),
-      rgba(255, 255, 255, 0.85)
+      to right,
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.45)
     ),
     url("hero_image.png");
 
   background-size: cover;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
 
   display: flex;
   align-items: center;
 }
+
 
 /* =========================================================
    Services Section
